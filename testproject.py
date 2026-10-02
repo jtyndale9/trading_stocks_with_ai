@@ -1,17 +1,6 @@
-"""
-Code initializing/running all necessary files for the report.
-NOTE: You will have to create the contents of this file yourself
-"""
 
-"""
-Create testproject.py. Testproject.py is the entry point to your project, and it should implement the necessary calls 
-(following each respective API) to Manual Strategy.py, StrategyLearner.py, experiment1.py, and experiment2.py with the 
-appropriate parameters to run everything needed for the report in a single Python call: 
 
-PYTHONPATH=../:. python testproject.py 
-"""
-
-# this is the entry point file!!
+# this is the entry point file
 # initialize learner, pull in data, send everything over, run strategy, run experiments, create graphs...
 
 """

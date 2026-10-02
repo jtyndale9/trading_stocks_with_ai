@@ -7,33 +7,6 @@ The main part of this code should call marketsimcode as necessary to generate th
 NOTE: You will have to create this file yourself.
 """
 
-# TODO implement testPolicy() which returns a trades data frame
-
-# TODO main part of this code should call marketsimcode as necessary to generate the plots used in the report
-
-
-# TODO For your report, trade only the symbol JPM
-# TODO The in-sample period is January 1, 2008 to December 31, 2009.
-# TODO The out-of-sample/testing period is January 1, 2010 to December 31, 2011.
-# TODO Starting cash is $100,000.
-
-# TODO Allowable positions are: 1000 shares long, 1000 shares short, 0 shares.
-
-# TODO Benchmark: The performance of a portfolio starting with $100,000 cash,
-#  investing in 1000 shares of the symbol in use on the first trading day,
-#  and holding that position. Include transaction costs.
-
-# TODO There is no limit on leverage. This means that you do not need to confirm that you have the capital to make your trade
-#  All trades can be executed without validating available cash in your portfolio.
-
-# TODO Transaction costs:
-#  ManualStrategy and StrategyLearner: Commission: $9.95, Impact: 0.005 (unless stated otherwise in an experiment).
-#  Auto-Grader Commission will always be $0.00, Impact may vary, and will be passed in as a parameter to the learner
-
-# TODO  All indicators must be used in some way to determine a buy/sell signal.
-#  You cannot use a single indicator for all signals.
-
-
 """
 df_trades = ms.testPolicy(symbol = "JPM", sd=dt.datetime(2010, 1, 1), ed=dt.datetime(2011,12,31), sv = 100000) 
 """

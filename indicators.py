@@ -3,10 +3,6 @@ import pandas as pd
 import numpy as np
 from datetime import datetime, timedelta
 
-# TODO Indicators must return a single results vector. As an example, the MACD indicator can only return one vector.
-#  This means it must return a custom scalar array that you develop that provides the information you need,
-#  the existing Signal line as an array, or the MACD line as an array.
-#  Indicators can only be used once
 
 
 """MACD MOVING AVERAGE CONVERGENCE DIVERGENCE"""
